@@ -73,6 +73,77 @@ main {
     box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
 }
 
+.visitor-counter {
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 2rem;
+}
+
+.visitor-counter h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.counter-display {
+    margin-bottom: 2rem;
+}
+
+.counter-display p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+#visitorCount {
+    font-weight: bold;
+    color: #667eea;
+    font-size: 1.4rem;
+}
+
+#incrementBtn {
+    background: linear-gradient(45deg, #43e97b, #38f9d7);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#incrementBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(67, 233, 123, 0.4);
+}
+
+#recentVisitors {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+#recentVisitors h4 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+#visitorsList {
+    list-style: none;
+    padding: 0;
+}
+
+#visitorsList li {
+    background: white;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border-left: 4px solid #667eea;
+    color: #666;
+}
+
 .features h3 {
     text-align: center;
     font-size: 1.8rem;

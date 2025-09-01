@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Web App</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
 </head>
 <body>
     <div class="container">
@@ -19,6 +20,18 @@
                 <button id="clickBtn">Click Me!</button>
             </section>
             
+            <section class="visitor-counter">
+                <h3>Visitor Counter</h3>
+                <div class="counter-display">
+                    <p>Total Visitors: <span id="visitorCount">Loading...</span></p>
+                    <button id="incrementBtn">I Visited! 👋</button>
+                </div>
+                <div id="recentVisitors">
+                    <h4>Recent Visitors:</h4>
+                    <ul id="visitorsList">Loading...</ul>
+                </div>
+            </section>
+            
             <section class="features">
                 <h3>Features</h3>
                 <div class="feature-grid">
@@ -31,8 +44,8 @@
                         <p>Click the button above to see JavaScript in action</p>
                     </div>
                     <div class="feature-card">
-                        <h4>Modern CSS</h4>
-                        <p>Uses flexbox and grid for layout</p>
+                        <h4>Database Integration</h4>
+                        <p>Powered by Supabase PostgreSQL</p>
                     </div>
                 </div>
             </section>
